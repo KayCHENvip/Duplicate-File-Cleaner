@@ -1,6 +1,6 @@
 # **Duplicate-File-Cleaner重复文件清理工具**
  **在pycharm上利用python实现重复文件的清理**  
- 
+
 ```
 这段代码是一个使用Python制作的删除重复文件的小工具，包括核心代码和GUI界面设计。
 
@@ -87,4 +87,8 @@ pip install PySimpleGUI
 <div>
   <img src="https://github.com/KayCHENvip/Duplicate-File-Cleaner/assets/128878325/270b4ee2-fbcb-466d-a7cb-626125f62fe7" > 
 </div>
-![源代码修改于](https://github.com/KayCHENvip/Duplicate-File-Cleaner/assets/128878325/6b478b89-ae73-4e18-9394-f8776922a9f2)
+
+
+**[源代码修改于]( https://github.com/KayCHENvip/Duplicate-File-Cleaner/assets/128878325/6b478b89-ae73-4e18-9394-f8776922a9f2)**   
+
+原始发表：2023-07-08，如觉得有侵权请联系 god.me@foxmail.com 
