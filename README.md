@@ -1,12 +1,12 @@
 # **Duplicate-File-Cleaner重复文件清理工具**
  **在pycharm上利用python实现重复文件的清理**  
 
-```
-这段代码是一个使用Python制作的删除重复文件的小工具，包括核心代码和GUI界面设计。
 
+
+这段代码是一个使用Python制作的删除重复文件的小工具，包括核心代码和GUI界面设计。
 核心代码部分：
 
-```python
+```
 import os
 import PySimpleGUI as sg
 
@@ -26,6 +26,7 @@ def main(filepath):
 ```
 
 上述代码定义了一个 `main` 函数，接收一个文件夹路径作为参数。在 `main` 函数中，使用 `os.walk` 函数遍历文件夹下的所有文件，并使用一个字典 `dict` 存储读取的文件内容和路径。如果某个文件的内容已经在字典中出现过，说明该文件是重复文件，使用 `os.remove` 函数删除该文件。
+
 
 GUI界面设计部分：
 
