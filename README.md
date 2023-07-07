@@ -82,13 +82,24 @@ if event == '开始删除':
 pip install PySimpleGUI
 ```
 
-在使用这段代码之前，请务必备份重要的文件，以免误删数据。同时，对于不熟悉Python的人来说，建议在使用前仔细阅读代码并理解其功能，避免造成不可逆的损失。
+GUI打包
 
+打包可以直接使用pyinstaller进行安装，需要安装pyinstaller库
+```
+pip install  pyinstaller
+```
+
+使用pyinstaller库打包，启动命令行窗口，在命令行窗口cd到文件所在的文件目录中，最后用下面命令进行打包：
+
+```
+pyinstaller -F -w dfc.py
+```
+打包完成会出现几个文件，进入dist文件夹，就可以看见.exe文件
 
 <div>
   <img src="https://github.com/KayCHENvip/Duplicate-File-Cleaner/assets/128878325/270b4ee2-fbcb-466d-a7cb-626125f62fe7" > 
 </div>
-
+在使用这段代码之前，请务必备份重要的文件，以免误删数据。同时，对于不熟悉Python的人来说，建议在使用前仔细阅读代码并理解其功能，避免造成不可逆的损失。
 
 **[源代码修改于]( https://github.com/KayCHENvip/Duplicate-File-Cleaner/assets/128878325/6b478b89-ae73-4e18-9394-f8776922a9f2)**   
 
